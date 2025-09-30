@@ -1,5 +1,10 @@
 #include "k_syntax.h"
 
+// some math constants
+const double eu = 2.718281828459045;
+const double pi = 3.141592653589793;
+const double gr = 1.618033988749894;
+
 // Pythagorean 2D
 r pyth_2d(r x, r y)
 start_
