@@ -42,6 +42,10 @@
 #define isnt != 
 #define xor_ ^ 
 
+extern const double eu;
+extern const double pi;
+extern const double gr;
+
 r pyth_2d(r x, r y);
 
 r pyth_3d(r x_, r y_, r z_);
@@ -60,4 +64,4 @@ nothing joutput(immutable symbol *sentence);
 
 nothing etoutput(immutable symbol *text);
 
-#endif 
+#endif
